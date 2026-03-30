@@ -6,9 +6,38 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.main-box{
+.main-box {
+  position: relative;
   background: url(./assets/pexels-steve-29101877.jpg) right no-repeat;
   height: 100vh;
   width: 100%;
   background-size: cover;
+}
+
+.main-box .sidebar-menu {
+  position: fixed;
+  height: 100vh;
+  width: 280px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+}
+
+.sidebar-menu .logo {
+  position: absolute;
+  height: 80px;
+  width: 100%;
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar-menu .logo a{
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  position: absolute;
+  left: 50px;
+  line-height: 60px;
+  text-decoration: none;
 }
