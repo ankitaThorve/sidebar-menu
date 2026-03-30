@@ -7,5 +7,8 @@
 }
 
 .main-box{
-  
+  background: url(./assets/pexels-steve-29101877.jpg) right no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
 }
