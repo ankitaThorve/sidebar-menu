@@ -41,3 +41,31 @@
   line-height: 60px;
   text-decoration: none;
 }
+
+.sidebar-menu .menu{
+  position: absolute;
+  top: 80px;
+  width: 100%;
+}
+
+.sidebar-menu .menu li{
+  margin-top: 6px;
+  padding: 14px 20px;
+}
+
+.sidebar-menu .menu i{
+  color: #fff;
+  font-size: 20px;
+  padding-right: 8px;
+}
+
+.sidebar-menu .menu a{
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.sidebar-menu .menu li:hover{
+  border-left: 1px solid #fff;
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+}
