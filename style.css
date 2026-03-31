@@ -133,3 +133,6 @@
 #check:checked ~ .btn-one i {
   opacity: 0;
 }
+#check:checked ~ .sidebar-menu .btn-two i {
+  opacity: 1;
+}
