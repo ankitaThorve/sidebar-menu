@@ -125,11 +125,11 @@
 .btn-two i:hover {
   font-size: 29px;
 }
-/* 
+
 #check:checked ~ .sidebar-menu {
   left: 0;
 }
 
 #check:checked ~ .btn-one i {
   opacity: 0;
-} */
+}
